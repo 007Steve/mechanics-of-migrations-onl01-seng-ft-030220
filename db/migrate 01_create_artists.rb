@@ -4,6 +4,8 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   :adapter => "sqlite3",
   :database => "db/artists.sqlite"
 )
+
+
     create_table :artists do |t|
       t.string :name
       t.string :genre
