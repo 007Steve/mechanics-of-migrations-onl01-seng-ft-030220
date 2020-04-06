@@ -6,6 +6,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   :database => "db/artists.sqlite"
 )
  
+ 
 ActiveRecord::Base.connection.execute(sql)
     create_table :artists do |t|
       t.string :name
