@@ -13,3 +13,4 @@ Bundler.require
   :database => "db/artists.sqlite"
 )
 
+require_relative "../artist.rb"
